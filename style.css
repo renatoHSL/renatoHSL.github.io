@@ -1,0 +1,27 @@
+body{
+    background-color: #A288E3;
+}
+
+#nome{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#descricao{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.java{
+    font-size: 45px;
+}
+
+.css{
+    font-size: 40px;
+}
+
+.html{
+    font-size: 30px;
+}
+
+.python{
+    font-size: 20px;
+}
