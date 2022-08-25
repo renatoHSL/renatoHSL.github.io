@@ -4,14 +4,28 @@ body{
 
 #nome{
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 #descricao{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.bloco-descricao{
+    display: inline-block;
+}
+
+#bloco-foto{
+    display: inline-block;
+    border: 2px solid black;
+    padding: 20px;
+    left: 50%;
+    background-color: aqua;
+}
+
 .java{
     font-size: 45px;
+    font-style: italic;
 }
 
 .css{
@@ -20,6 +34,7 @@ body{
 
 .html{
     font-size: 30px;
+    font-style: italic;
 }
 
 .python{
