@@ -1,22 +1,25 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import ProjectsPage from './Pages/ProjectsPage';
-import Home from './Pages/Home';
-// import NoPage from './Pages/NoPage';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NavBar from './Pages/Home/Navbar';
+import Home from './Pages/Home/Homescreen';
+
 
 function App() {
   return (
-    <BrowserRouter>
       <div className='App'>
-        <Routes>
-          {/* <Route index element={<Home />} /> */}
-          <Route path='/' element={<Home />} />
-          <Route path='/projects' element={<ProjectsPage />} />
-          {/* <Route path='*' element={<NoPage />} /> */}
-        </Routes>
+        <Router>
+          <div>
+            <NavBar />
+            <Routes>       
+              {/* Aqui adiciona mais paginas          */}
+              <Route path='/' element={<Home />}></Route>
+              {/* Usado quando usuário digital qualquer coisa. Se não foi algum caminho especificado, retornada 404 Not found */}
+              <Route path='*' element={<div>404 Not Found</div>}></Route>
+            </Routes>                    
+          </div>
+        </Router>
       </div>
-    </BrowserRouter>
   );
 }
 
