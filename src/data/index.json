@@ -2,13 +2,13 @@
     "skills": [
         {
             "id": "1",
-            "src": "./product-chain-1.png",
+            "src":  "./img/product-chain-1.png",
             "title": "Front-End",
             "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
             "id": "2",
-            "src": "../public/img/feather-pen-2.png",
+            "src":  "./img/tag-1.png",
             "title": "Front-End",
             "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
@@ -23,6 +23,29 @@
             "src": "/img/feather-pen-1.png",
             "title": "Webflow Development",
             "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "src":  "./img/placeholder-image.png",
+            "title": "Ahuse",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "link": "View in Github"
+        },
+        {
+            "id": "2",
+            "src":  "./img/tag-1.png",
+            "title": "Front-End",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "link": "View in Github"
+        },
+        {
+            "id": "3",
+            "src": "./img/feather-pen-2.png",
+            "title": "UI & UX Design",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "link": "View in Github"
         }
     ]
 }
