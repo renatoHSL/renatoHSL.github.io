@@ -16,15 +16,26 @@ body {
   p {
     margin: 0;
   }
-  :root {
-    --primary: #CAC5BE;  /**/
-    --heading-color: #3135EF; /**/
-    --bg-shade: #002839; /**/
+  /* :root {
+    --primary: #CAC5BE;  
+    --heading-color: #3135EF; 
+    --bg-shade: #002839; 
     --github: #e62872;
-    --darkblue: #97BDE1;  /**/
+    --darkblue: #97BDE1;
     --white: #181A1B;
     --black: #ffffff;
+  } */
+
+  :root {
+    --primary: orange;
+    --heading-color: #282938;
+    --bg-shade: #f5fcff;
+    --github: #e62872;
+    --darkblue: #1c1e53;
+    --black: #000000;
+    --white: #ffffff;
   }
+
   .btn {
     font-family: "Roboto";
     display: inline-block;
