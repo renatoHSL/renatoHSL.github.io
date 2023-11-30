@@ -9,12 +9,8 @@ export default function HeroSection() {
                         <br />
                         Developer
                     </h1>
-                    <p className="hero--section--description">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        <br /> lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    </p>
+                    
                 </div>
-                {/* <button className="btn btn-primary">Get in Touch</button> */}
             </div>
             <div className="hero--section--img">
                 {/* Foto principal  */}
