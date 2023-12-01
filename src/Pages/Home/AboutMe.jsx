@@ -6,7 +6,9 @@ export default function AboutMe() {
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <h1 className="skills-section--heading">Sobre Mim</h1>
+          <div className="aboutme--title">
+            <h1>Sobre Mim</h1>
+          </div>  
           <p className="hero--section-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
             officiis sit debitis omnis harum sed veniam quasi dicta accusamus

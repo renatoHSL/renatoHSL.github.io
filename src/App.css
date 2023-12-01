@@ -16,17 +16,17 @@ body {
   p {
     margin: 0;
   }
-  /* :root {
+  :root {
     --primary: #CAC5BE;  
     --heading-color: #3135EF; 
     --bg-shade: #002839; 
     --github: #e62872;
     --darkblue: #97BDE1;
     --white: #181A1B;
-    --black: #ffffff;
-  } */
+    --black: #E8E6E3;
+  }
 
-  :root {
+  /* :root {
     --primary: orange;
     --heading-color: #282938;
     --bg-shade: #f5fcff;
@@ -34,7 +34,7 @@ body {
     --darkblue: #1c1e53;
     --black: #000000;
     --white: #ffffff;
-  }
+  } */
 
   .btn {
     font-family: "Roboto";
@@ -142,7 +142,7 @@ body {
   /* Section Titles */
   /* Skills & About Me */
   .section--title {
-    color: var(--heading-color);
+    color: var(--primary);
     font-size: 21px;
     text-align: center;
     font-style: normal;
@@ -153,7 +153,7 @@ body {
   }
   /* Portfolio, Testimonial & Contact Me */
   .sub--title {
-    color: var(--heading-color);
+    color: var(--black);
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -184,6 +184,21 @@ body {
   .navbar--items ul > li > a {
     text-decoration: none;
   }
+
+
+  /* Adicione estas regras ao seu CSS existente */
+
+/* Estilos para o contêiner de ícones */
+.navbar--icons {
+  margin-left: auto; /* Move os ícones para o lado direito da barra de navegação */
+}
+
+.navbar--icons li {
+  margin-right: 20px; /* Espaçamento entre os ícones usando a propriedade margin */
+  display: inline-block; 
+}
+
+  
   /* Navbar Content */
   .navbar--content {
     color: var(--darkblue);
@@ -194,7 +209,7 @@ body {
     cursor: pointer;
   }
   .navbar--active-content {
-    color: var(--primary);
+    color: #5B47EF;
   }
 
   
@@ -264,6 +279,14 @@ body {
     width: 100%;
     height: 100%;
   }
+
+  .aboutme--title {
+    color: var(--black);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+  }
+  
   /* About Us Ends */
   
   /* My Portfolio Starts */
@@ -273,22 +296,23 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 80px;
-    background-color: var(--white);
+    background-color: var(--bg-shade);
   }
   .portfolio--container-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
   }
   .portfolio--container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 21.3px;
   }
   .portfolio--section--container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 42.6px;
@@ -309,9 +333,10 @@ body {
     flex: 1 0 0;
     background: var(--white);
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
-    cursor: pointer;
+    /* cursor: pointer; */
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    overflow: hidden;
   }
   .portfolio--section--card--content {
     display: flex;
@@ -320,9 +345,10 @@ body {
     align-items: flex-start;
     gap: 32px;
     align-self: stretch;
+    overflow: hidden;
   }
   .portfolio--section--title {
-    color: var(--heading-color);
+    color: var(--black);
   }
   .portfolio--link {
     text-decoration: none;
@@ -331,7 +357,17 @@ body {
     border-bottom: 1.33px solid var(--primary);
     padding-bottom: 10.6px;
     font-weight: 600;
+    text-align: center;
   }
+
+  .portfolio--link--container {
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+  }
+
   .portfolio--section--card:hover path {
     stroke: #006b6a;
   }

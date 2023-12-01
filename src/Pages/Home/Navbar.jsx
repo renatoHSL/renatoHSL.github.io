@@ -88,7 +88,7 @@ function NavBar() {
                     </li>                    
                 </ul>
             </div>  
-            <div className='navbar--items'>
+            <div className='navbar--icons'>
                 <ul>
                     <li>
                          <a
