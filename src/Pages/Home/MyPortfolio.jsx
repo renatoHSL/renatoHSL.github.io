@@ -2,7 +2,7 @@ import { Row, Col } from "react-bootstrap";
 import data from "../../data/index.json";
 
 export default function MyPortfolio() {
-  return (
+  return (    
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
@@ -22,42 +22,16 @@ export default function MyPortfolio() {
                   <p className="text-md">{item.description}</p>
                 </div>
                 <div className="portfolio--link--container">
-                  <p className="text-sm portfolio--link">
-                    {item.link.deploy}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 20 19"
-                      fill="none"
-                    >
-                      <path
-                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                        stroke="currentColor"
-                        strokeWidth="2.66667"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </p>
-                  <p className="text-sm portfolio--link">
-                    {item.link.github}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 20 19"
-                      fill="none"
-                    >
-                      <path
-                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                        stroke="currentColor"
-                        strokeWidth="2.66667"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </p>
+                <a href={item.link?.deploy} target="_blank" rel="noopener noreferrer">
+                  <button className="button--style">
+                    {item.websiteName?.deploy}                      
+                  </button>   
+                  </a>   
+                <a href={item.link?.github} target="_blank" rel="noopener noreferrer">
+                  <button className="button--style">
+                    {item.websiteName?.github}                    
+                  </button>
+                </a>             
                 </div>
               </div>
             </div>

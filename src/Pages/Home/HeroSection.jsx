@@ -3,9 +3,9 @@ export default function HeroSection() {
         <section id="heroSection" className="hero--section">
             <div className="hero--section--content--box">
                 <div className="hero--section--content">
-                    <p className="section--title">Olá, meu nome é Renato</p>
+                    <p className="section--title">Olá, meu nome é Renato Loureiro.</p>
                     <h1 className="hero--section--title">
-                        <span className="hero--section--title--color">Full Stack{" "}
+                        <span className="hero--section--title--color"> Back-End{" "}
                             <br />
                             Developer
                         </span>
@@ -15,7 +15,7 @@ export default function HeroSection() {
             </div>
             <div className="hero--section--img">
                 {/* Foto principal  */}
-                <img src="./img/programming-skills.jpg" alt="Hero Section" />
+                <img src="./img/computer-image.png" alt="Hero Section" />
             </div>
         </section>
     )

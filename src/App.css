@@ -87,10 +87,28 @@ body {
     box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
     gap: 16px;
   }
-  .btn-github:hover {
-    color: var(--github);
+  
+  .button--style {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;    
     background-color: var(--white);
+    color: #333;
+    color: var(--darkblue);
+    border: 2px solid #bdc3c7;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
   }
+
+  .button--style:hover {
+    color: #333;
+    background-color: #ecf0f1;
+  }
+
+
   /* Global CSS Ends */
   /* Main Headings */
   
@@ -132,7 +150,7 @@ body {
   }
   /* Body 3 */
   .text-sm {
-    color: var(--black);
+    color: var(--white);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -185,6 +203,10 @@ body {
     text-decoration: none;
   }
 
+  .navbar--items {
+    margin-right: auto;
+    margin-left: 37%;
+  }
 
   /* Adicione estas regras ao seu CSS existente */
 
@@ -228,13 +250,15 @@ body {
   .hero--section--content-box {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     gap: 32px;
+    /* margin-left: auto; */
   }
   .hero--section--content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 21.333px;
   }
   .hero--section--content--box > button {
@@ -245,10 +269,10 @@ body {
     font-size: 74.667px;
     font-weight: 700;
     line-height: 90px;
-    align-self: stretch;
+    /* align-self: stretch; */
   }
   .hero--section--title--color {
-    color: var(--primary);
+    color: var(--darkblue);
   }
   .hero--section-description {
     color: var(--darkblue);
@@ -332,8 +356,7 @@ body {
     gap: 32px;
     flex: 1 0 0;
     background: var(--white);
-    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
-    /* cursor: pointer; */
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);    
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     overflow: hidden;
@@ -362,7 +385,7 @@ body {
 
   .portfolio--link--container {
     display: flex;
-    gap: 130px;
+    gap: 100px;
     justify-content: center;
     align-items: center;
     margin-left: 10%;
@@ -398,9 +421,9 @@ body {
     .portfolio--container-box,
     .portfolio--container,
     .hero--section--content,
-    .hero--section--content--box {
+    /* .hero--section--content--box {
       align-items: center;
-    }
+    } */
     .portfolio--container-box {
       gap: 30px;
     }

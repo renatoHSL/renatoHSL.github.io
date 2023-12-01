@@ -5,52 +5,98 @@
             "src":  "./img/placeholder-image.png",
             "title": "Ahuse",
             "description": "loreconsectetur adipiscing elit.",
+            "websiteName": {
+              "deploy": "View in Website",
+              "github": "View in github"
+            },
             "link": {
-              "deploy": "View in github",
-              "github": "View in linkdin"
-            }
+              "deploy": "https:/google.com/",
+              "github": "https:/google.com/"
+            }              
         },
         {
             "id": "2",
             "src": "./img/placeholder-image-1.png",
             "title": "App Dashboard",
             "description": "loreconsectetur adipiscing elit.",
-            "link": "View In Github"
+            "websiteName": {
+              "deploy": "View in Website",
+              "github": "View in github"
+            },
+            "link": {
+              "deploy": "https:/google.com/",
+              "github": "https:/google.com/"
+            }   
           },
           {
             "id": "3",
             "src": "./img/placeholder-image-2.png",
             "title": "Easy Rentn",
             "description": "loreconsectetur adipiscing elit.",
-            "link": "View In Github"
+            "websiteName": {
+              "deploy": "View in Website",
+              "github": "View in github"
+            },
+            "link": {
+              "deploy": "https:/google.com/",
+              "github": "https:/google.com/"
+            }   
           },
           {
             "id": "3",
             "src": "./img/placeholder-image-2.png",
             "title": "Easy Rentn",
             "description": "loreconsectetur adipiscing elit.",
-            "link": "View In Github"
+            "websiteName": {
+              "deploy": "View in Website",
+              "github": "View in github"
+            },
+            "link": {
+              "deploy": "https:/google.com/",
+              "github": "https:/google.com/"
+            }   
           },
           {
             "id": "3",
             "src": "./img/placeholder-image-2.png",
             "title": "Easy Rentn",
             "description": "loreconsectetur adipiscing elit.",
-            "link": "View In Github"
+            "websiteName": {
+              "deploy": "View in Website",
+              "github": "View in github"
+            },
+            "link": {
+              "deploy": "https:/google.com/",
+              "github": "https:/google.com/"
+            }   
           },
           {
             "id": "3",
             "src": "./img/placeholder-image-2.png",
             "title": "Easy Rentn",
             "description": "loreconsectetur adipiscing elit.",
-            "link": "View In Github"
+            "websiteName": {
+              "deploy": "View in Website",
+              "github": "View in github"
+            },
+            "link": {
+              "deploy": "https:/google.com/",
+              "github": "https:/google.com/"
+            }   
           },
           {
             "id": "3",
             "src": "./img/placeholder-image-2.png",
             "title": "Easy Rentn",
             "description": "loreconsectetur adipiscing elit.",
-            "link": "View In Github"
+            "websiteName": {
+              "deploy": "View in Website",
+              "github": "View in github"
+            },
+            "link": {
+              "deploy": "https:/google.com/",
+              "github": "https:/google.com/"
+            }   
           }
     ]
 }

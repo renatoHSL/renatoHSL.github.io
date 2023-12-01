@@ -34,6 +34,9 @@ function NavBar() {
 
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
+            <div>
+                <img src="./img/output-onlinepngtools.png" alt="Logoipsum" />
+            </div>
            <a 
                 className={`nav__hamburger ${navActive ? "active" : ""}`} 
                 onClick={toggleNav}
@@ -92,7 +95,7 @@ function NavBar() {
                 <ul>
                     <li>
                          <a
-                            href="https://www.linkedin.com/"
+                            href="https://www.linkedin.com/in/dev-renato-loureiro/"
                             className="navbar--content--icons"
                             target="_blank"
                             rel="noreferrer"
@@ -115,7 +118,7 @@ function NavBar() {
                     </li>
                     <li>
                           <a
-                            href="https://www.github.com/"
+                            href="https://github.com/renatoHSL"
                             className="navbar--content--icons"
                             target="_blank"
                             rel="noreferrer"
