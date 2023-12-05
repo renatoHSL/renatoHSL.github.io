@@ -9,17 +9,27 @@ export default function AboutMe() {
           <div className="aboutme--title">
             <h1>Sobre Mim</h1>
           </div>  
-          <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-            tempora numquam sint odit optio.
+          <ul className="hero--section-description">
+            <li>
+              &#x1f60e; Dedico-me ao aprofundamento em tecnologias Back-End, com ênfase em Python. 
+            </li>
+            <li>
+              &#x1f680; Buscando minha primeira oportunidade na área de tecnologia.
+            </li>         
+            {/* <li>
+               &#x1f680;
+            </li> 
+           */}
+          </ul>
+          <ul></ul>
+          <p>
+            
           </p>
-          <p className="hero--section-description">
+          {/* <p className="hero--section-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
             officiis sit debitis omnis harum sed veniam quasi dicta accusamus
             recusandae?
-          </p>
+          </p> */}
         </div>
       </div>
     </section>

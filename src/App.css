@@ -275,6 +275,7 @@ body {
     color: var(--darkblue);
   }
   .hero--section-description {
+    list-style-type: none;
     color: var(--darkblue);
     font-size: 24px;
     font-weight: 400;
